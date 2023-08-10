@@ -1,0 +1,76 @@
+<resources>
+    <!-- Base application theme. -->
+
+    <style name="fullbattery_alert_switch_theme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:colorForeground">#a5a4a4</item>
+        <item name="colorControlActivated">#fe7804</item>
+        <item name="colorSwitchThumbNormal">#d6d5d5</item>
+    </style>
+
+    <style name="CustomTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+    </style>
+
+    <style name="antitouch_switch_theme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:colorForeground">#ffffff</item>
+        <item name="colorControlActivated">#ffc401</item>
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+    </style>
+
+    <style name="Intruder_swithch" parent="@style/Theme.AppCompat.Light">
+        <item name="android:colorForeground">#ffffff</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+    </style>
+
+    <style name="wrong_pass_switch_theme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:colorForeground">#ffffff</item>
+        <item name="colorControlActivated">#6083e2</item>
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+    </style>
+
+    <style name="charger_removel_switch_theme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:colorForeground">#ffffff</item>
+        <item name="colorControlActivated">#e365d8</item>
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+    </style>
+
+    <style name="battery_alert_switch_theme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:colorForeground">#ffffff</item>
+        <item name="colorControlActivated">#fe7804</item>
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+    </style>
+
+    <style name="pocket_alarm_switch_theme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:colorForeground">#ffffff</item>
+        <item name="colorControlActivated">#c8e25e</item>
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+    </style>
+
+    <style name="active_intruder_switch" parent="@style/Theme.AppCompat.Light">
+        <item name="android:colorForeground">#a5a4a4</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorSwitchThumbNormal">#d6d5d5</item>
+    </style>
+
+    <style name="RatingBar" parent="@style/Theme.AppCompat">
+        <item name="colorControlActivated">@color/lightGrey</item>
+        <item name="colorControlNormal">@color/duskYellow</item>
+    </style>
+
+    <style name="Theme_Theftapp" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorPrimary">@color/statusbarcolor</item>
+        <item name="colorPrimaryVariant">@color/statusbarcolor</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+    </style>
+</resources>

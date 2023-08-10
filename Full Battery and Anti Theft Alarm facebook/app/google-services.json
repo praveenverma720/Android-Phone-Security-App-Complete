@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1087190274884",
+    "project_id": "phone-police-79ca1",
+    "storage_bucket": "phone-police-79ca1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087190274884:android:3a2b9ed0e5ab8e8613bd11",
+        "android_client_info": {
+          "package_name": "com.redapps.phonepolice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087190274884-n2uc4oaklv5l496m8etabiasmhjt0fdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.redapps.phonepolice",
+            "certificate_hash": "dbbfdbc853a38151a31c59fde3d3f192a28cd9cd"
+          }
+        },
+        {
+          "client_id": "1087190274884-ujsg29o8hqriehdi7jk4i5gggbfnjlns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.redapps.phonepolice",
+            "certificate_hash": "be3d73308f3b424116eb9a3fb6ef4024e94f62c4"
+          }
+        },
+        {
+          "client_id": "1087190274884-gm139d4v9jfvh9k6ur0rc9ohehpldtl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOF8_8Q4CKjjOUr3U2GhkXUw1OxLyuKJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087190274884-ac7veph70ergeo3q3sbjba8carrogj0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,350 @@
+﻿<!DOCTYPE HTML>
+<html lang="zxx">
+<head>
+<title>Documentation by "Code Byte Infotech"</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet"> 
+</head>
+<body>
+<section id="header">
+  <header> <span class="image avatar"><img src="images/logo.png" alt="" /></span>
+    <h4 id="logo">App Related Topics</h4>
+  </header>
+  <nav id="nav">
+    <ul>
+		<li><a href="#eclipseversion"><i class="fa fa-hand-o-right"></i> Introduction</a></li>
+		<li><a href="#importproject"><i class="fa fa-hand-o-right"></i> Folder Structure</a></li>
+		<li><a href="#packagename"><i class="fa fa-hand-o-right"></i> How To Change The Package Name?</a></li>
+		<li><a href="#appname"><i class="fa fa-hand-o-right"></i> How To Change Application Logo?</a></li>
+		<li><a href="#serverurl"><i class="fa fa-hand-o-right"></i> How To Change The Application Name?</a></li>
+		<li><a href="#verify_pur"><i class="fa fa-hand-o-right"></i> How To Change The Application Color?</a></li>
+		<li><a href="#admob_publisher_id"><i class="fa fa-hand-o-right"></i> How To Create and Change Admob ID?</a></li>
+		<li><a href="#reel"><i class="fa fa-hand-o-right"></i> Firebase configration and Generate SHA-1</a></li>
+        <li><a href="#credits"><i class="fa fa-hand-o-right"></i> Credits</a></li>
+    </ul>
+  </nav>  
+</section>
+<div id="wrapper">
+  <div id="main">
+    <section id="one">
+      <div class="container">
+        <header class="major">
+          <h2>Company:- Code Byte Infotech - India</h2>
+        </header>
+        <div class="borderTop">
+     
+          <div class="span-12 last">
+            <p class="prepend-top append-0">Thank you for purchasing the app. If you have any questions that are beyond the scope of this help file, please feel free to message us via my user page contact form our email. Thanks so much!!!</p>
+          </div>
+        </div>
+		<div class="section_bdr"></div>	
+
+       <section id="eclipseversion">
+          <div class="container"> <br>
+            <h2>Contact us</h2>
+          
+               <a style="color:#0e8bcb" href="" target="_blank">codebyteinfotech@gmail.com</a> </p>
+			
+            <div class="section_bdr"></div>
+          </div>
+        </section>
+
+        <section id="importproject">
+          <div class="container"> <br>
+            <h2>Folder Structure</h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/asNNuCivI2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <ul class="feature_list">
+              <li>Unzip the file.</li>
+              <li>You see the following folders:<br/> <b>• Customizing the App (contain the android files)</b><br/> <b>• Documentation</b> </li>
+            </ul>         
+            <div class="section_bdr"></div>
+          </div>
+        </section>
+
+        <section id="packagename">
+          <div class="container"> <br>
+		
+            <h2>How to change the package name? </h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/qc5zKBwGMDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>You can change it easily from Android Studio. Here are the steps:</p>
+            <ul class="feature_list">
+              <li>1.1 Open Android Studio</li>
+              <li>1.2 Open the project using one of the following methods, (see Figure 1, 2)</li>
+            </ul>
+                <p><center>Figure 1</center></p>
+				<span class="lightbox"><img src="images/f1.png" alt=""/> </span>
+                <p><center>Figure 2</center></p>
+				<span class="lightbox"><img src="images/f2.png" alt=""/> </span>
+                <div class="section_bdr"></div>
+            <ul class="feature_list">
+              <li>1.3 In your project pane, click on the little gear icon </li>
+              <li>1.4 Uncheck / De-select the Compact Empty Middle Packages option (see Figure 3)</li>
+            </ul>
+            <p><center>Figure 3</center></p>
+				<span class="lightbox"><img src="images/f3.png" alt=""/> </span>
+                <div class="section_bdr"></div>
+                
+                <ul class="feature_list">
+              <li>1.5 Your package directory will be broken into individual directories now. Individually select each directory you want to rename </li>
+              <li>1.6 Right-click on it</li>
+              <li>1.7 Select Refactor and Click on Rename (see Figure 4)</li>
+            </ul>
+            <p><center>Figure 4</center></p>
+				<span class="lightbox"><img src="images/f4.png" alt=""/> </span>
+                <ul class="feature_list">
+              <li>1.8 In the Pop-up dialog, click on Rename Package </li>
+              <li>1.9 Enter the new name and hit Refactor</li>
+              <li>1.10 Click Do Refactor at the bottom and allow a minute to let Android Studio update all changes</li>
+              <li>1.11 Note: While renaming com in Android Studio, it might give you a warning. In such case, select Rename All.</li> 
+            </ul>
+            <div class="section_bdr"></div>
+            
+				      		
+               <ul class="feature_list">
+              <li>1.12 Open your AndroidManifest.xml file. Change the package to your new package name under the manifest tag. (see Figure 5) </li>
+              
+            </ul>
+            <p><center>Figure 5</center></p>
+				<span class="lightbox"><img src="images/f5.png" alt=""/> </span>              
+                            		
+            <div class="section_bdr"></div>       
+            
+            
+            <ul class="feature_list">
+              <li>1.13 Now open your build.gradle (app) file. Update the applicationId to your new package name and sync gradle. (see Figure 6) </li>
+              
+            </ul>
+            <p><center>Figure 6</center></p>
+				<span class="lightbox"><img src="images/f6.png" alt=""/> </span>              
+                            		
+            <div class="section_bdr"></div>      
+            
+          </div>
+        </section>
+
+		<section id="appname">
+          <div class="container"> <br>
+            <h2>How to change application logo? </h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/cXACM2e0ISE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 
+            <ul class="feature_list">
+              <li>1.14 In App -> Right-click on the res folder.</li>
+              <li>1.15 Click on the New, then Image Asset. (see Figure 7) </li>
+              
+            </ul>
+            <p><center>Figure 7</center></p>
+				<span class="lightbox"><img src="images/f7.png" alt=""/> </span>              
+                            		
+                        <ul class="feature_list">
+              <li>1.16 Select Launcher IconsIcons (Adaptive and Legacy) and set Foreground Layer, Background Layer.</li>
+              <li>1.17 Click on Next > Click on Finish > Done</li>
+              
+            </ul>
+          </div>
+        </section>
+		
+        <div class="section_bdr"></div>
+		
+		<section id="serverurl">
+			<div class="container"><br>
+			<h2>How to change application name?</h2>
+              
+			 <ul class="feature_list">
+              <li>1.18 In App -> To change Application name go to the values > strings.xml file</li>
+              <li>1.19 Change the app_name item. (see Figure 8) </li>
+            </ul>
+            <p><center>Figure 8</center></p>
+				<span class="lightbox"><img src="images/f8.png" alt=""/> </span>  
+</section>				
+                            		
+            <div class="section_bdr"></div>   
+		
+		<section id="verify_pur">
+			<div class="container"><br>
+			<h2>How to change application color? </h2>
+            
+			<ul class="feature_list">
+              <li>1.20 In App -> Go to the values > colors.xml file</li>
+              <li>1.21 Change the colorPrimary, colorPrimaryDark, colorAccent item values (see Figure 9) </li>
+            </ul>
+            <p><center>Figure 9</center></p>
+				<span class="lightbox"><img src="images/f9.png" alt=""/> </span>              
+                            		
+            
+		</section>
+		
+        <div class="section_bdr"></div>
+
+        <section id="admob_publisher_id">
+		  <div class="container"> <br>
+			<h2>How To Create and Change Admob ID?</h2>
+            
+             <ul class="feature_list">
+              <li>1.22 Login with your Gmail account and Go to this <a href="https://apps.admob.com/signup/">link</a></li>
+              <li>1.23 From Apps option create App (see Figure 10) </li>
+            </ul>
+            <p><center>Figure 10</center></p>
+				<span class="lightbox"><img src="images/f10.png"  alt=""/> </span>  
+             <div class="section_bdr"></div>
+             
+             <ul class="feature_list">
+              <li>1.24 If your app is in play store then select YES otherwise NO (see Figure 11) </li>
+            </ul>
+            <p><center>Figure 11</center></p>
+				<span class="lightbox"><img src="images/f11.png"  alt=""/> </span>  
+             <div class="section_bdr"></div>
+             
+             
+              <ul class="feature_list">
+              <li>1.25 Then provide app information and click ADD (see Figure 12) </li>
+            </ul>
+            <p><center>Figure 12</center></p>
+				<span class="lightbox"><img src="images/f12.png"  alt=""/> </span>  
+             <div class="section_bdr"></div>
+             
+              <ul class="feature_list">
+              <li>1.26 Then you will get an App ID. Save it at values > string.xml file. You will need it later. (see Figure 13) </li>
+            </ul>
+            <p><center>Figure 13</center></p>
+				<span class="lightbox"><img src="images/f13.png"  alt=""/> </span>  
+             <div class="section_bdr"></div>
+             
+             <ul class="feature_list">
+              <li>1.27 Change App Id in strings.xml file. (see Figure 14) </li>
+            </ul>
+            <p><center>Figure 14</center></p>
+				<span class="lightbox"><img src="images/f14.png"  alt=""/> </span>  
+             <div class="section_bdr"></div>
+             
+             
+             <ul class="feature_list">
+              <li>1.28 Then click on CREATE AD UNIT and you will find three ad types. Only Banner and Interstitial types will be used here. (see Figure 15) </li>
+            </ul>
+            <p><center>Figure 15</center></p>
+				<span class="lightbox"><img src="images/f15.png"  alt=""/> </span>  
+             <div class="section_bdr"></div>
+             
+             <ul class="feature_list">
+              <li>1.29 Select Banner type. Provide Ad unit name and click on CREATE AD UNIT. (see Figure 16) </li>
+            </ul>
+            <p><center>Figure 16</center></p>
+				<span class="lightbox"><img src="images/f16.png"  alt=""/> </span>  
+             <div class="section_bdr"></div>
+             
+             <ul class="feature_list">
+              <li>1.30 Copy Banner Ad unit id and save it .You will need it later. (see Figure 17) </li>
+            </ul>
+            <p><center>Figure 17</center></p>
+				<span class="lightbox"><img src="images/f17.png"  alt=""/> </span>  
+             <div class="section_bdr"></div>
+             
+             <ul class="feature_list">
+              <li>1.31 Then again go back to Ad types and select Interstitial Ad type. Provide Ad unit name and select CREATE AD UNIT. (see Figure 18) </li>
+            </ul>
+            <p><center>Figure 18</center></p>
+				<span class="lightbox"><img src="images/f18.png"  alt=""/> </span>  
+             <div class="section_bdr"></div>
+             
+             <ul class="feature_list">
+              <li>1.32 Copy the Interstitial ad unit id and save it. You will need it later. (see Figure 19) </li>
+            </ul>
+            <p><center>Figure 19</center></p>
+				<span class="lightbox"><img src="images/f19.png"  alt=""/> </span>  
+             <div class="section_bdr"></div>
+             
+             <ul class="feature_list">
+              <li>1.33 Now get saved Admob Banner and Interstitial Ad unit id. Then go to res > values > strings.xml file in Android Studio. Put them to admob_test_banner_ad_unit_id, admob_test_interstitial_ad_unit_id items. (see Figure 20) </li>
+            </ul>
+            <p><center>Figure 20</center></p>
+				<span class="lightbox"><img src="images/f20.png"  alt=""/> </span>  
+             <div class="section_bdr"></div>
+             
+             
+		  </div>
+		
+		 </section>
+		
+		 
+		 <section id="reel">
+		 <div class="container"> <br>
+			<h2>How to add android project in firebase?</h2>
+            
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/tC2tEFEkevw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             
+		  </div>
+			<div class="container"><br>
+            
+			<H1 style="font-family: 'Roboto', sans-serif; color: 
+	#0047ab; " >Generate SHA-1 -</H1>
+	<p style="font-family: 'Roboto', sans-serif; color: 
+	#000; font-weight:  500; ">Follow the steps.</p>
+	<img   width="850" height="500" src="images/generatekey.jpg">
+	<img   width="850" height="500" src="images/pastekey.jpg">
+	   
+		</section>
+     
+		 
+       
+        <section id="credits">
+          <div class="container"> <br>
+            <h2>Credits</h2>          
+            <ul class="feature_list">
+				<li>Admob</li>
+				<li>Android Studio</li>
+				<li>YouTube</li>
+				<li>HTTP Client</li>         
+                <li>Google</li>
+            </ul>
+            <hr>
+            <p>Once again, thank you so much for purchasing this app.</p>
+            
+        </section>
+        
+        <!-- Footer -->
+        <section id="footer">
+          <div class="container">		    
+            <ul class="copyright">
+            
+              <li><a href="" target="_blank"><span style="color:#9f9f9f;font-style:italic">Code Byte Infotech</span></a></li>
+            </ul>
+			<div class="social_icon">
+				<ul class="icons">
+				  <li><a href="" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				  <li><a href="" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				  <li><a href="" target="_blank" class="icon fa fa-linkedin"><span class="label">Linkdin</span></a></li>
+				  
+				</ul>
+			</div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>
+</div>
+<!-- Scripts --> 
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/jquery.scrollzer.min.js"></script> 
+<script src="assets/js/jquery.scrolly.min.js"></script> 
+<script src="assets/js/skel.min.js"></script> 
+<script src="assets/js/util.js"></script> 
+<script src="assets/js/main.js"></script> 
+<script>
+$(document).ready(function(){
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollup').fadeIn();
+		} else {
+			$('.scrollup').fadeOut();
+		}
+	});
+	$('.scrollup').click(function(){
+		$("html, body").animate({ scrollTop: 0 }, 600);
+		return false;
+	});
+});
+</script>
+<div><a href="#" class="scrollup">Scroll</a></div>
+</body>
+</html>

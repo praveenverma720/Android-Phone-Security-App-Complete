@@ -1,0 +1,753 @@
+[
+  {
+    "className": "com.google.ads.mediation.adcolony.AdColonyMediationAdapter",
+    "format": "banner",
+    "is_rtb": "true",
+    "networkLabel": "AdColony",
+    "serverParameters": {
+      "App ID": "app_id",
+      "Zone ID": "zone_id"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.adcolony.AdColonyMediationAdapter",
+    "format": "interstitial",
+    "is_rtb": "true",
+    "networkLabel": "AdColony",
+    "serverParameters": {
+      "App ID": "app_id",
+      "Zone ID": "zone_id"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.adcolony.AdColonyMediationAdapter",
+    "format": "rewarded",
+    "is_rtb": "true",
+    "networkLabel": "AdColony",
+    "serverParameters": {
+      "App ID": "app_id",
+      "Zone ID": "zone_id"
+    }
+  },
+  {
+    "className": "com.jirbo.adcolony.AdColonyAdapter",
+    "format": "banner",
+    "is_rtb": "false",
+    "networkLabel": "AdColony",
+    "serverParameters": {
+      "App ID": "app_id",
+      "Zone ID": "zone_ids"
+    }
+  },
+  {
+    "className": "com.jirbo.adcolony.AdColonyAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "AdColony",
+    "serverParameters": {
+      "App ID": "app_id",
+      "Zone ID": "zone_ids"
+    }
+  },
+  {
+    "className": "com.jirbo.adcolony.AdColonyAdapter",
+    "format": "rewarded",
+    "is_rtb": "false",
+    "networkLabel": "AdColony",
+    "serverParameters": {
+      "App ID": "app_id",
+      "Zone ID": "zone_ids"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.admob.AdMobAdapter",
+    "format": "banner",
+    "is_rtb": "false",
+    "networkLabel": "AdMob",
+    "serverParameters": {}
+  },
+  {
+    "className": "com.google.ads.mediation.admob.AdMobAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "AdMob",
+    "serverParameters": {}
+  },
+  {
+    "className": "com.google.ads.mediation.admob.AdMobAdapter",
+    "format": "native",
+    "is_rtb": "false",
+    "networkLabel": "AdMob",
+    "serverParameters": {}
+  },
+  {
+    "className": "com.google.ads.mediation.admob.AdMobAdapter",
+    "format": "rewarded",
+    "is_rtb": "false",
+    "networkLabel": "AdMob",
+    "serverParameters": {}
+  },
+  {
+    "className": "com.applovin.mediation.ApplovinAdapter",
+    "format": "banner",
+    "is_rtb": "false",
+    "networkLabel": "AppLovin",
+    "serverParameters": {
+      "Application ID": "appId",
+      "SDK Key": "sdkKey",
+      "Zone ID": "zone_id"
+    }
+  },
+  {
+    "className": "com.applovin.mediation.ApplovinAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "AppLovin",
+    "serverParameters": {
+      "Application ID": "appId",
+      "SDK Key": "sdkKey",
+      "Zone ID": "zone_id"
+    }
+  },
+  {
+    "className": "com.applovin.mediation.ApplovinAdapter",
+    "format": "rewarded",
+    "is_rtb": "false",
+    "networkLabel": "AppLovin",
+    "serverParameters": {
+      "Application ID": "appId",
+      "SDK Key": "sdkKey",
+      "Zone ID": "zone_id"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.applovin.AppLovinMediationAdapter",
+    "format": "banner",
+    "is_rtb": "true",
+    "networkLabel": "AppLovin",
+    "serverParameters": {
+      "SDK Key": "sdkKey"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.applovin.AppLovinMediationAdapter",
+    "format": "interstitial",
+    "is_rtb": "true",
+    "networkLabel": "AppLovin",
+    "serverParameters": {
+      "SDK Key": "sdkKey"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.applovin.AppLovinMediationAdapter",
+    "format": "rewarded",
+    "is_rtb": "true",
+    "networkLabel": "AppLovin",
+    "serverParameters": {
+      "SDK Key": "sdkKey"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.chartboost.ChartboostAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "Chartboost",
+    "serverParameters": {
+      "Ad Location": "adLocation",
+      "App ID": "appId",
+      "App Signature": "appSignature"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.chartboost.ChartboostAdapter",
+    "format": "banner",
+    "is_rtb": "false",
+    "networkLabel": "Chartboost",
+    "serverParameters": {
+      "Ad Location": "adLocation",
+      "App ID": "appId",
+      "App Signature": "appSignature"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.chartboost.ChartboostAdapter",
+    "format": "rewarded",
+    "is_rtb": "false",
+    "networkLabel": "Chartboost",
+    "serverParameters": {
+      "Ad Location": "adLocation",
+      "App ID": "appId",
+      "App Signature": "appSignature"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.customevent.CustomEventAdapter",
+    "format": "banner",
+    "is_rtb": "false",
+    "networkLabel": "Custom Event",
+    "serverParameters": {
+      "Class Name": "class_name",
+      "Label": "label",
+      "Parameter": "parameter"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.customevent.CustomEventAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "Custom Event",
+    "serverParameters": {
+      "Class Name": "class_name",
+      "Label": "label",
+      "Parameter": "parameter"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.facebook.FacebookAdapter",
+    "format": "banner",
+    "is_rtb": "false",
+    "networkLabel": "Facebook",
+    "serverParameters": {
+      "Placement ID": "pubid"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.facebook.FacebookAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "Facebook",
+    "serverParameters": {
+      "Placement ID": "pubid"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.facebook.FacebookAdapter",
+    "format": "native",
+    "is_rtb": "false",
+    "networkLabel": "Facebook",
+    "serverParameters": {
+      "Placement ID": "pubid"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.facebook.FacebookAdapter",
+    "format": "rewarded",
+    "is_rtb": "false",
+    "networkLabel": "Facebook",
+    "serverParameters": {
+      "Placement ID": "pubid"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.facebook.FacebookMediationAdapter",
+    "format": "banner",
+    "is_rtb": "true",
+    "networkLabel": "Facebook",
+    "serverParameters": {
+      "Placement ID": "placement_id"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.facebook.FacebookMediationAdapter",
+    "format": "interstitial",
+    "is_rtb": "true",
+    "networkLabel": "Facebook",
+    "serverParameters": {
+      "Placement ID": "placement_id"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.facebook.FacebookMediationAdapter",
+    "format": "native",
+    "is_rtb": "true",
+    "networkLabel": "Facebook",
+    "serverParameters": {
+      "Placement ID": "placement_id"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.facebook.FacebookMediationAdapter",
+    "format": "rewarded",
+    "is_rtb": "true",
+    "networkLabel": "Facebook",
+    "serverParameters": {
+      "Placement ID": "placement_id"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.fyber.FyberMediationAdapter",
+    "format": "banner",
+    "is_rtb": "false",
+    "networkLabel": "Fyber Marketplace",
+    "serverParameters": {
+      "Application ID": "applicationId",
+      "Ad Spot ID": "spotId",
+      "Ad Unit ID": "adUnitId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.fyber.FyberMediationAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "Fyber Marketplace",
+    "serverParameters": {
+      "Application ID": "applicationId",
+      "Ad Spot ID": "spotId",
+      "Ad Unit ID": "adUnitId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.fyber.FyberMediationAdapter",
+    "format": "rewarded",
+    "is_rtb": "false",
+    "networkLabel": "Fyber Marketplace",
+    "serverParameters": {
+      "Application ID": "applicationId",
+      "Ad Spot ID": "spotId",
+      "Ad Unit ID": "adUnitId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.imobile.IMobileAdapter",
+    "format": "banner",
+    "is_rtb": "false",
+    "networkLabel": "i-mobile",
+    "serverParameters": {
+      "Media ID": "mid",
+      "Publisher ID": "publisherId",
+      "Spot ID": "asid"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.imobile.IMobileAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "i-mobile",
+    "serverParameters": {
+      "Media ID": "mid",
+      "Publisher ID": "publisherId",
+      "Spot ID": "asid"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.imobile.IMobileMediationAdapter",
+    "format": "native",
+    "is_rtb": "false",
+    "networkLabel": "i-mobile",
+    "serverParameters": {
+      "Media ID": "mid",
+      "Publisher ID": "publisherId",
+      "Spot ID": "asid"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.inmobi.InMobiAdapter",
+    "format": "banner",
+    "is_rtb": "false",
+    "networkLabel": "InMobi",
+    "serverParameters": {
+      "Account ID": "accountid",
+      "Placement ID": "placementid"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.inmobi.InMobiAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "InMobi",
+    "serverParameters": {
+      "Account ID": "accountid",
+      "Placement ID": "placementid"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.inmobi.InMobiAdapter",
+    "format": "native",
+    "is_rtb": "false",
+    "networkLabel": "InMobi",
+    "serverParameters": {
+      "Account ID": "accountid",
+      "Placement ID": "placementid"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.inmobi.InMobiAdapter",
+    "format": "rewarded",
+    "is_rtb": "false",
+    "networkLabel": "InMobi",
+    "serverParameters": {
+      "Account ID": "accountid",
+      "Placement ID": "placementid"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.inmobi.InMobiMediationAdapter",
+    "format": "banner",
+    "is_rtb": "true",
+    "networkLabel": "InMobi",
+    "serverParameters": {
+      "Account ID": "accountid",
+      "Placement ID": "placementid"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.inmobi.InMobiMediationAdapter",
+    "format": "interstitial",
+    "is_rtb": "true",
+    "networkLabel": "InMobi",
+    "serverParameters": {
+      "Account ID": "accountid",
+      "Placement ID": "placementid"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.inmobi.InMobiMediationAdapter",
+    "format": "native",
+    "is_rtb": "true",
+    "networkLabel": "InMobi",
+    "serverParameters": {
+      "Account ID": "accountid",
+      "Placement ID": "placementid"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.inmobi.InMobiMediationAdapter",
+    "format": "rewarded",
+    "is_rtb": "true",
+    "networkLabel": "InMobi",
+    "serverParameters": {
+      "Account ID": "accountid",
+      "Placement ID": "placementid"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.ironsource.IronSourceAdapter",
+    "format": "banner",
+    "is_rtb": "false",
+    "networkLabel": "IronSource",
+    "serverParameters": {
+      "App Key": "appKey",
+      "Instance ID": "instanceId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.ironsource.IronSourceAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "IronSource",
+    "serverParameters": {
+      "App Key": "appKey",
+      "Instance ID": "instanceId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.ironsource.IronSourceRewardedAdapter",
+    "format": "rewarded",
+    "is_rtb": "false",
+    "networkLabel": "IronSource",
+    "serverParameters": {
+      "App Key": "appKey",
+      "Instance ID": "instanceId"
+    }
+  },
+  {
+    "className": "jp.maio.sdk.android.mediation.admob.adapter.Interstitial",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "maio",
+    "serverParameters": {
+      "Media ID (メディアID)": "mediaId",
+      "Zone ID (ゾーンID)": "zoneId"
+    }
+  },
+  {
+    "className": "jp.maio.sdk.android.mediation.admob.adapter.Rewarded",
+    "format": "rewarded",
+    "is_rtb": "false",
+    "networkLabel": "maio",
+    "serverParameters": {
+      "Media ID (メディアID)": "mediaId",
+      "Zone ID (ゾーンID)": "zoneId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.maio.MaioMediationAdapter",
+    "format": "interstitial",
+    "is_rtb": "true",
+    "networkLabel": "maio",
+    "serverParameters": {
+      "Publisher ID": "publisherId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.maio.MaioMediationAdapter",
+    "format": "rewarded",
+    "is_rtb": "true",
+    "networkLabel": "maio",
+    "serverParameters": {
+      "Publisher ID": "publisherId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.mopub.MoPubMediationAdapter",
+    "format": "rewarded",
+    "is_rtb": "false",
+    "networkLabel": "MoPub",
+    "serverParameters": {
+      "Ad Unit ID": "adUnitId"
+    }
+  },
+  {
+    "className": "com.mopub.mobileads.dfp.adapters.MoPubAdapter",
+    "format": "banner",
+    "is_rtb": "false",
+    "networkLabel": "MoPub",
+    "serverParameters": {
+      "Ad Unit ID": "adUnitId"
+    }
+  },
+  {
+    "className": "com.mopub.mobileads.dfp.adapters.MoPubAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "MoPub",
+    "serverParameters": {
+      "Ad Unit ID": "adUnitId"
+    }
+  },
+  {
+    "className": "com.mopub.mobileads.dfp.adapters.MoPubAdapter",
+    "format": "native",
+    "is_rtb": "false",
+    "networkLabel": "MoPub",
+    "serverParameters": {
+      "Ad Unit ID": "adUnitId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.mytarget.MyTargetAdapter",
+    "format": "banner",
+    "is_rtb": "false",
+    "networkLabel": "myTarget",
+    "serverParameters": {
+      "Slot ID": "slotId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.mytarget.MyTargetAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "myTarget",
+    "serverParameters": {
+      "Slot ID": "slotId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.mytarget.MyTargetNativeAdapter",
+    "format": "native",
+    "is_rtb": "false",
+    "networkLabel": "myTarget",
+    "serverParameters": {
+      "Slot ID": "slotId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.mytarget.MyTargetRewardedAdapter",
+    "format": "rewarded",
+    "is_rtb": "false",
+    "networkLabel": "myTarget",
+    "serverParameters": {
+      "Slot ID": "slotId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.nend.NendAdapter",
+    "format": "banner",
+    "is_rtb": "false",
+    "networkLabel": "Nend",
+    "serverParameters": {
+      "API Key": "apiKey",
+      "Spot ID": "spotId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.nend.NendAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "Nend",
+    "serverParameters": {
+      "API Key": "apiKey",
+      "Spot ID": "spotId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.nend.NendRewardedAdapter",
+    "format": "rewarded",
+    "is_rtb": "false",
+    "networkLabel": "Nend",
+    "serverParameters": {
+      "API Key": "apiKey",
+      "Spot ID": "spotId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.tapjoy.TapjoyAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "Tapjoy",
+    "serverParameters": {
+      "Placement Name": "placementName",
+      "SDK Key": "sdkKey"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.tapjoy.TapjoyAdapter",
+    "format": "rewarded",
+    "is_rtb": "false",
+    "networkLabel": "Tapjoy",
+    "serverParameters": {
+      "Placement Name": "placementName",
+      "SDK Key": "sdkKey"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.tapjoy.TapjoyMediationAdapter",
+    "format": "interstitial",
+    "is_rtb": "true",
+    "networkLabel": "Tapjoy",
+    "serverParameters": {
+      "Placement Name": "placementName",
+      "SDK Key": "sdkKey"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.tapjoy.TapjoyMediationAdapter",
+    "format": "rewarded",
+    "is_rtb": "true",
+    "networkLabel": "Tapjoy",
+    "serverParameters": {
+      "Placement Name": "placementName",
+      "SDK Key": "sdkKey"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.unity.UnityAdapter",
+    "format": "banner",
+    "is_rtb": "false",
+    "networkLabel": "Unity Ads",
+    "serverParameters": {
+      "Game ID": "gameId",
+      "Placement ID": "zoneId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.unity.UnityAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "Unity Ads",
+    "serverParameters": {
+      "Game ID": "gameId",
+      "Placement ID": "zoneId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.unity.UnityAdapter",
+    "format": "rewarded",
+    "is_rtb": "false",
+    "networkLabel": "Unity Ads",
+    "serverParameters": {
+      "Game ID": "gameId",
+      "Placement ID": "zoneId"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.verizon.VerizonMediationAdapter",
+    "format": "banner",
+    "is_rtb": "false",
+    "networkLabel": "Verizon Media",
+    "serverParameters": {
+      "Placement ID": "placement_id",
+      "Site ID": "site_id"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.verizon.VerizonMediationAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "Verizon Media",
+    "serverParameters": {
+      "Placement ID": "placement_id",
+      "Site ID": "site_id"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.verizon.VerizonMediationAdapter",
+    "format": "native",
+    "is_rtb": "false",
+    "networkLabel": "Verizon Media",
+    "serverParameters": {
+      "Placement ID": "placement_id",
+      "Site ID": "site_id"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.verizon.VerizonMediationAdapter",
+    "format": "rewarded",
+    "is_rtb": "false",
+    "networkLabel": "Verizon Media",
+    "serverParameters": {
+      "Placement ID": "placement_id",
+      "Site ID": "site_id"
+    }
+  },
+  {
+    "className": "com.vungle.mediation.VungleInterstitialAdapter",
+    "format": "banner",
+    "is_rtb": "false",
+    "networkLabel": "Vungle",
+    "serverParameters": {
+      "Application ID": "appid",
+      "Placement Reference ID": "placementID"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.vungle.VungleMediationAdapter",
+    "format": "interstitial",
+    "is_rtb": "true",
+    "networkLabel": "Vungle",
+    "serverParameters": {
+      "Application ID": "appid",
+      "Placement Reference ID": "placementID"
+    }
+  },
+  {
+    "className": "com.google.ads.mediation.vungle.VungleMediationAdapter",
+    "format": "rewarded",
+    "is_rtb": "true",
+    "networkLabel": "Vungle",
+    "serverParameters": {
+      "Application ID": "appid",
+      "Placement Reference ID": "placementID"
+    }
+  },
+  {
+    "className": "com.vungle.mediation.VungleAdapter",
+    "format": "rewarded",
+    "is_rtb": "false",
+    "networkLabel": "Vungle",
+    "serverParameters": {
+      "Application ID": "appid",
+      "Placement Reference ID": "placementID"
+    }
+  },
+  {
+    "className": "com.vungle.mediation.VungleInterstitialAdapter",
+    "format": "interstitial",
+    "is_rtb": "false",
+    "networkLabel": "Vungle",
+    "serverParameters": {
+      "Application ID": "appid",
+      "Placement Reference ID": "placementID"
+    }
+  }
+]

@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f4f9f9"
+        android:fitsSystemWindows="false">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/home_menu_bg"
+                android:elevation="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/nav_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="@string/todo"
+                    android:padding="7dp"
+                    android:src="@drawable/ic_nav_icon" />
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_toEndOf="@+id/nav_icon"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/ic_logo"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/logo"
+                    android:text="@string/anti_theft"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+            </RelativeLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/fl_adplaceholder"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/intuder_main"
+                        android:layout_width="150dp"
+                        android:layout_height="170dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/home_menu_bg"
+                        android:elevation="10dp"
+                        android:visibility="visible"
+                        app:layout_constraintBottom_toTopOf="@+id/wrongpassword_main"
+                        app:layout_constraintEnd_toStartOf="@+id/antitouch_main"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="4dp"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="3dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:background="@drawable/intruder_gradient">
+
+                                <androidx.appcompat.widget.SwitchCompat
+                                    android:id="@+id/intruder_swithch"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:buttonTint="#ffffff"
+                                    android:theme="@style/Intruder_swithch"
+                                    app:showText="false" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/ic_group_636" />
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/t1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="5dp"
+                            android:padding="4dp"
+                            android:text="@string/intruder_alert"
+                            android:textColor="@color/txtcolor"
+                            app:layout_constraintEnd_toStartOf="@+id/imgbtn1"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+                        <ImageButton
+                            android:id="@+id/imgbtn1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="16dp"
+                            android:background="@color/colorAccent"
+                            android:contentDescription="@string/todo"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/antitouch_main"
+                        android:layout_width="150dp"
+                        android:layout_height="170dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/home_menu_bg"
+                        android:elevation="10dp"
+                        android:visibility="visible"
+                        app:layout_constraintBottom_toTopOf="@+id/chargingremovel_main"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/intuder_main"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="4dp"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="3dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:background="@drawable/anti_touch_gradient">
+
+                                <androidx.appcompat.widget.SwitchCompat
+                                    android:id="@+id/anti_touch_switch"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:theme="@style/antitouch_switch_theme"
+                                    app:showText="false" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/ic_anti_touch" />
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/t4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="5dp"
+                            android:padding="4dp"
+                            android:text="@string/anti_touch_detect"
+                            android:textColor="@color/txtcolor"
+                            app:layout_constraintEnd_toStartOf="@+id/imgbtn4"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/cardView3" />
+
+                        <ImageButton
+                            android:id="@+id/imgbtn4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="16dp"
+                            android:background="#ffc401"
+                            android:contentDescription="@string/todo"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/wrongpassword_main"
+                        android:layout_width="150dp"
+                        android:layout_height="170dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/home_menu_bg"
+                        android:elevation="10dp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toStartOf="@+id/chargingremovel_main"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/intuder_main">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="4dp"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="3dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:background="@drawable/wrong_pass_gradient">
+
+                                <androidx.appcompat.widget.SwitchCompat
+                                    android:id="@+id/wrong_pass_switch"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:theme="@style/wrong_pass_switch_theme"
+                                    app:showText="false" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/ic_wrong_password" />
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/t7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/wrong_password_alert"
+                            android:textColor="@color/txtcolor"
+                            app:layout_constraintEnd_toStartOf="@+id/imgbtn5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/cardView5" />
+
+                        <ImageButton
+                            android:id="@+id/imgbtn5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="16dp"
+                            android:background="#6587e4"
+                            android:contentDescription="@string/todo"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.102"
+                            app:layout_constraintStart_toEndOf="@+id/t7" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/chargingremovel_main"
+                        android:layout_width="150dp"
+                        android:layout_height="170dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/home_menu_bg"
+                        android:elevation="10dp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/wrongpassword_main"
+                        app:layout_constraintTop_toBottomOf="@+id/antitouch_main">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="4dp"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="3dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:background="@drawable/charger_removel_gradient">
+
+                                <androidx.appcompat.widget.SwitchCompat
+                                    android:id="@+id/charger_remove_switch"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:theme="@style/charger_removel_switch_theme"
+                                    app:showText="false" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/ic_charging_removal" />
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/t8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/charging_removel_alert"
+                            android:textColor="@color/txtcolor"
+                            app:layout_constraintEnd_toStartOf="@+id/imgbtn6"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/cardView6" />
+
+                        <ImageButton
+                            android:id="@+id/imgbtn6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="16dp"
+                            android:background="#e262d6"
+                            android:contentDescription="@string/todo"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.102"
+                            app:layout_constraintStart_toEndOf="@+id/t8" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/batteryalert_main"
+                        android:layout_width="150dp"
+                        android:layout_height="170dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/home_menu_bg"
+                        android:elevation="10dp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toStartOf="@+id/pocketalram_main"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/wrongpassword_main">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="4dp"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="3dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:background="@drawable/batterygradient">
+
+                                <androidx.appcompat.widget.SwitchCompat
+                                    android:id="@+id/bateryalert_switch"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:theme="@style/battery_alert_switch_theme"
+                                    app:showText="false" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/ic_full_battery" />
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/t9"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/full_battery_alert"
+                            android:textColor="@color/txtcolor"
+                            app:layout_constraintEnd_toStartOf="@+id/imgbtn7"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/cardView7" />
+
+                        <ImageButton
+                            android:id="@+id/imgbtn7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="16dp"
+                            android:background="#ff7e0f"
+                            android:contentDescription="@string/todo"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.102"
+                            app:layout_constraintStart_toEndOf="@+id/t9" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/pocketalram_main"
+                        android:layout_width="150dp"
+                        android:layout_height="170dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/home_menu_bg"
+                        android:elevation="10dp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/batteryalert_main"
+                        app:layout_constraintTop_toBottomOf="@+id/chargingremovel_main">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="4dp"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="3dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:background="@drawable/pocketalram_gradient">
+
+                                <androidx.appcompat.widget.SwitchCompat
+                                    android:id="@+id/pocketalram_switch"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:theme="@style/pocket_alarm_switch_theme"
+                                    android:visibility="visible"
+                                    app:showText="false" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/ic_pocket_alarm" />
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/t6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/pocket_alram"
+                            android:textColor="@color/txtcolor"
+                            app:layout_constraintEnd_toStartOf="@+id/imgbtn8"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/cardView4" />
+
+                        <ImageButton
+                            android:id="@+id/imgbtn8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="16dp"
+                            android:background="#c7e362"
+                            android:contentDescription="@string/todo"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.102"
+                            app:layout_constraintStart_toEndOf="@+id/t6" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:layout_marginTop="16dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/pocketalram_main" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </ScrollView>
+
+            <LinearLayout
+                android:id="@+id/fl_adplaceholder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@color/white"
+            android:fitsSystemWindows="true"
+            android:foregroundGravity="left"
+            app:headerLayout="@layout/nav_headerlayout"
+            app:itemTextColor="@color/black"
+            app:menu="@menu/drawermenu" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+</layout>

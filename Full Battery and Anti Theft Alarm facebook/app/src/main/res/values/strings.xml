@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Phone Police</string>
+    <string name="_1">1</string>
+    <string name="_10">10</string>
+    <string name="_12_36_am">| 12 : 36 AM</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+
+    <string name="activatePocketAlarm">Activate Pocket Alarm</string>
+    <string name="activate_full_battery_alert">Activate Full Battery Alert</string>
+    <string name="activate_intruder_alert">Activate Intruder Alert</string>
+
+    <string name="alarm_after_number_of_wrong_attempts">Alarm after number of wrong attempts</string>
+    <string name="alarm_setting">Alarm Setting</string>
+    <string name="alarm_settings">ALARM SETTINGS</string>
+    <string name="alert">ALERT!</string>
+    <string name="allow">Allow</string>
+    <string name="alram_tone">Alarm Tone</string>
+    <string name="antiTouchAlertisActive">Anti Touch Alert is Active</string>
+    <string name="anti_theft">Anti Theft Alarm</string>
+    <string name="anti_touch_detect">ANTI-TOUCH DETECT</string>
+    <string name="anti_touch_screen_des">A loud ring will alert if someone touches or moves your phones.</string>
+    <string name="anti_touch_screenlabel">Anti-touch alert</string>
+    <string name="anti_touch_switchoptionlabel">Activate Anti-Touch Alert</string>
+
+    <string name="app_unlicensed">This app is not licensed</string>
+    <string name="app_unlicensed_close">Close</string>
+    <string name="app_unlicensed_description">This application is not licensed nor valid. Please download the app from a trusted source.</string>
+
+    <string name="camera_permission">Camera permission is Needed for Photos</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_your_pin">Change your Pin</string>
+    <string name="charging_removel_alert">CHARGING REMOVAL ALERT</string>
+    <string name="chip_text">Chip text</string>
+    <string name="claps_screen_des">Claps To Find My Phone is that enables you to find your device by clapping.</string>
+    <string name="claps_screenlabel">Claps detect</string>
+    <string name="claps_switchoptionlabel">Activate Claps Detection</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+
+    <string name="confirm_pin">Confirm Pin</string>
+    <string name="delete">Delete</string>
+    <string name="deny">Deny</string>
+    <string name="do_you_want_to_delete_images">Do you want to delete images…?</string>
+    <string name="do_you_want_to_exit_this_app">Do You want to Exit this App?</string>
+    <string name="enter_pin">Enter Pin</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="five">Tone 5</string>
+    <string name="four">Tone 4</string>
+    <string name="fullBatterAlerisActive">Full Battery Alert is Active</string>
+    <string name="full_battery_alert">FULL BATTERY ALERT</string>
+
+    <string name="heycheckoutthisappat">Hi check out this app :</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="imagedeleted">Image Deleted!</string>
+    <string name="intruder_alert">INTRUDER ALERT</string>
+    <string name="intruder_alert_is_going_to_be_activated_after_number_of_wrong_pin_pattern_attempts">Intruder Alert is going to be activated after number of wrong Pin/Pattern attempts</string>
+    <string name="intruder_images">INTRUDER IMAGES</string>
+    <string name="isomeontriestogetridofthphonefrompocketpurseanlarmwillexplodealertingyou">If someone tries to get rid of the phone from pocket / purse an alarm will explode alerting you.</string>
+    <string name="item_view_role_description">Tab</string>
+
+    <string name="loading_advertisement">Loading Advertisement</string>
+    <string name="login">Login</string>
+
+    <string name="minimumasswordLengthShouldbe">Minimum Password Length Should be 4</string>
+
+    <string name="notificationAlert">Notification Alert</string>
+    <string name="ok">OK</string>
+    <string name="one">Tone 1</string>
+    <string name="permissionDENIED">Permission DENIED</string>
+    <string name="permission_needed">Permission needed</string>
+    <string name="pleaseConnectChargerToActiveThisFeature">Please Connect Charger To Activate This Feature</string>
+    <string name="please_Write_Something">Please Write Something!</string>
+    <string name="pocketAlarm">Pocket Alarm</string>
+    <string name="pocketAlarmisActive">Pocket Alarm is Active</string>
+    <string name="pocket_alram">POCKET ALARM</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="putyourPhoninPocketorunPocketAlarmAlert">Put your Phone in Pocket to run Pocket Alarm Alert</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="ring_alarm">Ring Alarm</string>
+    <string name="save">Save</string>
+    <string name="search_menu_title">Search</string>
+    <string name="select">Select</string>
+    <string name="select_alram_tone">SELECT ALARM TONE</string>
+    <string name="sensitivity">Sensitivity</string>
+    <string name="set_Permission_From_Settings">Set Permission From Settings</string>
+    <string name="set_your_password_first">Set Your Password First</string>
+    <string name="share">Share</string>
+    <string name="show_intruder">Show Intruder</string>
+    <string name="signup">Sign Up</string>
+    <string name="six">Tone 6</string>
+    <string name="star">***</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="this_alert_notifies_you_when_your_battery_is_fully_charged">This alert notifies you when your battery level is Full.</string>
+    <string name="this_feature_requires_administrative_permissions_therefore_before_uninstalling_phone_antitheft_app_kindly_deactivate_intruder_alert_feature">This feature requires administrative permissions. Therefore before Uninstalling Phone Antitheft app kindly Deactivate Admin Mode.</string>
+    <string name="three">Tone 3</string>
+    <string name="today">| Today</string>
+    <string name="todo">Image Here</string>
+    <string name="tone_1">Tone 1</string>
+    <string name="turn_on_flash_light_during_alram">Turn on Flash Light During Alarm</string>
+    <string name="two">Tone 2</string>
+    <string name="unauthorized_app_blocked">License is invalid because you have been using an unauthorized app such as Lucky Patcher. Please reinstall the app when the unauthorized app is completely uninstalled.</string>
+    <string name="unauthorized_app_found">License is invalid because we have found you have %1$s app installed on your device.</string>
+    <string name="vibrate_device_during_alram">Vibrate Device During Alarm</string>
+    <string name="welcom">WellCome</string>
+    <string name="whistle_screen_des">Whistle to find Phone is a professional tool which helps you locate and find your phone.</string>
+    <string name="whistle_screenlabel">Whistle detect</string>
+    <string name="whistle_switchoptionlabel">Activate Whistle Detection</string>
+    <string name="whistle_to_find_phone_is_a_professional_tool_which_helps_you_locate_and_find_your_phone">Whistle to find Phone is a professional tool which helps you locate and find your phone.</string>
+    <string name="wongPasswordAlertisActive">Wrong Password Alert is Active</string>
+    <string name="wrong_password_alert">WRONG PASSWORD ALERT</string>
+    <string name="wrongpassdes">Protect your phone from those people who tried to unlock your phone and enter the wrong password then alarm alerting you.</string>
+    <string name="wrongpasslabel">Wrong Password alert</string>
+    <string name="wrongpassswitchlabel">Activate Wrong Password Alert</string>
+
+    <string name="chargerRemoverAlertisActive">Charger Remover Alert is Active</string>
+    <string name="charger_screen_des">When your phone is on charging and somebody disconnected your phone deliberately or without knowing. Then your device will be started alarming loudly.</string>
+    <string name="charger_screenlabel">Charging removal alert</string>
+    <string name="charger_switchoptionlabel">Activate Anti-Charger Alert</string>
+
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ads_native">1316132298978752_1316206662304649</string>
+    <string name="interstail">1316132298978752_1316207035637945</string>
+    <string name="banner">1316132298978752_1316206862304629</string>
+
+</resources>
