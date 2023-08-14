@@ -20,6 +20,12 @@ Say goodbye to worries about your phone's safety. "Don't Touch My Phone" is an a
 - Anti-touch detection
 - Wrong password alert
 
+## Highlights
+⭐Phone Anti-touch Alarm (don't touch my phone)
+⭐ Anti-Pickpocket Alarm(catch a mobile phone thief )
+⭐ Charger Removal Alert ( don't remove charger)
+⭐ Intruder Alert & Intruder photo
+⭐ Hand-Free Removal Alert 
 
 ## Screenshots
 
