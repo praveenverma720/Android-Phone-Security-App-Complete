@@ -39,9 +39,6 @@ Say goodbye to worries about your phone's safety. "Don't Touch My Phone" is an a
 
 
 
-## Demo
-
-https://play.google.com/store/apps/details?id=com.redapps.phonepolice
 
 
 ## 🚀 About Me
